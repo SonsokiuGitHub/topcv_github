@@ -1,0 +1,26 @@
+/* css breadcrumb */
+
+.breadcrumb__page-search{
+    padding:20px 0px;
+    font-size: 14px;
+}
+
+.breadcrumb__page-search ul{
+    margin:0 !important;
+    line-height: 1.428;
+}
+
+.breadcrumb__page-search li a{
+    text-decoration: none;
+    font-weight: 700;
+    background-color: transparent;
+    display: inline-block;
+    color:#666666;
+    font-size: 14px;
+}
+
+.breadcrumb__page-search ul li {
+    margin: 0;
+}
+
+/* end css breadcrumb */

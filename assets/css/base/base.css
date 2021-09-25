@@ -1,0 +1,133 @@
+*{
+    box-sizing:border-box;
+    margin: 0px auto;
+    padding:0;
+    border:none;
+    font-family: Arial,helvetica neue,Helvetica,sans-serif;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-family: Arial,helvetica neue,Helvetica,sans-serif;
+
+}
+
+.w-full{
+    width:100%;
+}
+
+.h-full{
+    height: 100%;
+}
+
+.w-auto{
+    width:auto;
+}
+
+.h-auto{
+    height: auto;
+}
+
+.color-main-topcv{
+    color:#00b14f;
+}
+.bg-main-topcv {
+    background-color: #00B14f;
+}
+
+
+.btn-custom {
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px 10px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+
+.btn-main-topcv {
+    display: inline-block;
+    background-color: #00b14f!important;
+    color: #fff!important;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 15px!important;
+    text-transform: uppercase;
+}
+
+.btn-yellow {
+    background-color: #f1c40e;
+
+}
+
+.bg-main-primary{
+    background-color:#f5f8fa;
+}
+
+.bg-main-secondary{
+    background-color:#f6fbf9;
+}
+
+.bg-sub-primary{
+    background-color: #fafafa;;
+}
+
+.bg-sub-secondary{
+    background-color: #f0f0f0;
+}
+
+.bg-sub-item-job{
+    background-color: #d8f1e3;;
+}
+
+.bg-box-search{
+    background-color: #737779;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    
+}
+
+.label-danger{
+    background-color: #d9534f;
+}
+
+
+.custom-arrow-right {
+    background: #666;
+    padding: 6px;
+    border-radius: 50px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.custom-arrow-left {
+    background: #666;
+    padding: 6px;
+    border-radius: 50px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.container{
+    width:100%;
+    max-width:1100px;
+}

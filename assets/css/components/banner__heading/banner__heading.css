@@ -1,0 +1,28 @@
+/* start css banner */
+
+.banner{
+    padding:10px;
+}
+
+.banner__describe > h1{
+    margin: 20px 0px 10px;
+    color:#00b14f;
+    font-size:44px;
+}
+
+.banner__describe > h3{
+    margin: 20px 0px 10px;
+    color:#00b14f;
+    font-size:22px;
+}
+
+.banner__describe > p{
+    margin: 20px 0px 10px;
+    color:#333;
+    font-size:16px;
+}
+
+.banner__image > img{
+    max-width:80%;
+    height: auto;
+}

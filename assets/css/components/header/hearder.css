@@ -1,0 +1,31 @@
+
+/* css hearder */
+
+.nav-item > .nav-link{
+    font-size:15px;
+    padding:25px 12px !important;
+}
+
+.btn-support {
+    display: block;
+    border-radius:50px;
+    line-height: 1.428;
+}
+
+.btn-support a{
+    color:#ffffff;
+    font-size: 15px;
+    padding:15px 14px 20px;
+    text-align: center;
+}
+
+.btn-support a p{
+    margin:0;
+}
+
+.navbar-brand > img{
+    height: 40px;
+    width:auto;
+}
+
+/* end css header */

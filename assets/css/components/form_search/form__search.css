@@ -1,0 +1,46 @@
+/* css form search */
+
+.btn-custom {
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px 10px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.btn-yellow {
+    background-color: #f1c40e;
+}
+
+#form-search-job > h2{
+    margin:10px 0px;
+}
+
+#form-search-job .input-icon{
+    left: 30px;
+    top: 10px;
+    font-size: 18px;
+    z-index: 1;
+    color: #666;
+}
+
+#form-search-job .input-search{
+    padding-left:45px;
+    height: 44px;
+    border-radius:0;
+}
+
+#form-search-job .input-select2{
+    font-size: 14px;
+    height: 44px;
+    border-radius:0;
+}
+
+#form-search-job .form-control:focus{
+    box-shadow:none;
+    outline:none;
+}

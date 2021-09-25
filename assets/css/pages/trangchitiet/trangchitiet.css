@@ -1,0 +1,226 @@
+@import "../../base/reset.css";
+@import "../../base/base.css";
+@import "../../components/header/hearder.css";
+@import "../../components/footer/footer.css";
+@import "../../components/form_search/form__search.css";
+@import "../../components/sub__nav/sub__nav.css";
+@import "../../components/Breadcrumb/breadcrumb.css";
+
+body{
+    background-color: #f6f6f6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* css header page trangchitiet */
+
+.nav-item.btn-page-jobs{
+    display:inline-block !important;
+    background-color: #334554 !important;
+}
+
+.nav-item >.nav-link{
+    color:#333 !important;
+}
+.nav-item>.nav-link:hover{
+    color:#00b14f !important;
+}
+/* ------end css header trangchitiet */
+
+.box-search__selective{
+    color:#fff;
+    font-size: 13px;
+}
+
+.company-logo__link img{
+    width:100%;
+    max-width:200px;
+    height: auto;
+}
+
+.job-heading{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.company-title{
+    margin-bottom:10px;
+}
+
+.company-title a{
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 14px;
+    color: #666;
+    font-weight: 700;
+}
+
+.company-address, .job-deadline{
+    font-size: 14px;
+    color:#666666;
+    margin-bottom: 10px;
+}
+
+.tab-list ul li{
+    display:block;
+}
+
+.tab-list ul li a{
+    display: block;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 20px 15px 10px;
+    margin-top: 10px;
+    color:#666666;
+    background-color: transparent;
+}
+
+.tab-list ul li.active a{
+    background: 0 0;
+    color: #212f3f;
+    font-weight: 700;
+    border-bottom: 2px solid #212f3f;
+}
+
+.tab-list ul li a:hover{
+    background: 0 0;
+    color: #212f3f;
+    font-weight: 700;
+    border-bottom: 2px solid #212f3f;
+}
+
+.job-describe p{
+    margin-bottom:10px;
+    line-height: 1.428;
+    color:#363636;
+}
+
+.job-describe h2{
+    margin:20px 0px;
+}
+
+.box-report a{
+    color:#666666;
+    font-size: 14px;
+}
+
+.box-report a>i{
+    color:tomato;
+}
+
+.header-title h3{
+    border-radius:2px 2px 0px 0px ;
+}
+
+
+.job-info-item{
+    padding:15px;
+    font-size: 14px;
+    border-bottom:1px solid #ececec;
+}
+
+.job-info-item strong{
+    font-weight: 700;
+}
+
+.bg-list-job{
+    border:1px solid #ececec;
+    border-bottom:none;
+}
+.job-item{
+    background-color: #fff;
+    border-bottom:1px solid #ececec;
+}
+
+.job-item:hover{
+    background-color: #f6f6f6;
+}
+
+.job-item a img{
+    width:50px;
+    height: auto;
+}
+
+.list-job-box .title a{
+    text-decoration:none;
+    color:#999999;
+    display: inline-block;
+    margin-bottom:8px;
+    font-size: 14px;
+}
+.list-job-box  a:hover{
+    color:#00b14f;
+}
+
+.list-job-box .title a strong{
+    text-decoration:none;
+    color:#666666;
+}
+
+.suggest-jobs h3{
+    font-size:24px;
+    color:#333;
+    margin-bottom:10px;
+    padding:0px 20px;
+}
+
+/* css box recruiter------ */
+.box-recruiter{
+    padding:20px;
+}
+
+.hotline-recruiter__heading{
+    font-size: 25px;
+    line-height: 30px;
+    color:#666666;
+}
+
+.contact-line hr{
+    width: 60%;
+    margin: 25px auto;
+    border: 1px solid #000;
+
+}
+
+.hotline-recruiter .contact-text{
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    background-color: #fff;
+    height: 30px;
+    width:170px;
+    left: 50%;
+    margin-left: -80px;
+    color: #666;
+    font-size: 14px;
+}
+
+.contact-point{
+    margin-top:30px;
+}
+
+.contact-point{
+    font-size: 14px;
+    width:260px;
+    margin:auto;
+    line-height: 30px;
+}
+
+.contact-point p{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.contact-point p i{
+    font-size: 24px;
+    margin-right:20px;
+    line-height: 30px;
+}
+/* ----- end css box recruiter */
+
+
+@media (min-width:768px){
+    .tab-list ul li a{
+        margin-right:80px;
+    }
+}
+

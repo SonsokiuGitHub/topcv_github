@@ -1,0 +1,57 @@
+
+/* start css box-job */
+.box-job__heading i{
+    color:#f1c40e;
+}
+
+.box-job__heading h2{
+    color:#ffffff;
+    font-size: 17px;
+}
+
+.box-job__heading a{
+    color:#ffffff;
+    font-size: 14px;
+}
+
+.item-job{
+    border:1px solid #edededcc;
+}
+
+.item-job a{
+    text-decoration:none;
+}
+
+.item-job__logo-company{
+    width:64px;
+    height: 64px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.item-job__logo-company img{
+    width:100%;
+    height: auto;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-job__name-job a{
+    color:#4a4a4a;
+    font-size: 14px;
+}
+
+.item-job__name-company a{
+    color:#999999;
+    font-size: 14px;
+}
+
+.view-more a{
+    color:#333;
+}
+/* end css box-job */

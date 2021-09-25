@@ -1,0 +1,161 @@
+@import "../../base/reset.css";
+@import "../../base/base.css";
+@import "../../components/header/hearder.css";
+@import "../../components/footer/footer.css";
+@import "../../components/form_search/form__search.css";
+@import "../../components/list__job/list__job.css";
+
+
+/* start css banner */
+
+.banner{
+    padding:10px;
+}
+
+.banner__describe > h1{
+    margin: 20px 0px 10px;
+    color:#00b14f;
+    font-size:44px;
+}
+
+.banner__describe > h3{
+    margin: 20px 0px 10px;
+    color:#00b14f;
+    font-size:22px;
+}
+
+.banner__describe > p{
+    margin: 20px 0px 10px;
+    color:#333;
+    font-size:16px;
+}
+
+.banner__image > img{
+    max-width:80%;
+    height: auto;
+}
+
+/* ----------------------------- */
+
+.connect-job__describe p{
+    color:#4a4a4a;
+    word-spacing: 0.18rem;
+    line-height: 1.5;
+}
+
+.step a{
+    text-decoration:none;
+}
+
+.connect-job .step img{
+    max-width:162px;
+    height: auto;
+    margin:0px auto;
+}
+
+.step__describe a{
+    color:#888888;
+    font-size: 14px;
+}
+
+.reason-user-item__list{
+    margin-left:16px;
+}
+
+.reason-user-item__list li{
+    line-height: 25px;
+    font-size: 14px;
+    color:#4b4b4b;
+    list-style: disc;
+}
+
+.reason-user-item__button a{
+    border-radius: 2px;
+}
+
+/* --------css partner ---------- */
+
+.partner__heading{
+    margin-bottom:20px;
+    color: #4b4b4b;
+}
+
+.partner__text{
+    font-size: 20px;
+    margin-bottom:40px;
+    color:#666666;
+}
+
+.partner .row a{
+    padding:10px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width:100%;
+    height: 80px;
+
+}
+
+.partner .row a >img{
+    max-height:100%;
+    width:auto;
+}
+
+/* -----------css feedback and stat--------------- */
+.feedback__heading{
+    margin-bottom:60px;
+    color:#4b4b4b;
+}
+
+.box-feedback-and-stat{
+    background-image: url(../../../images/image__home/bg_statistic.webp);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.feedback__item {
+    border-radius:5px;
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 5%);
+    min-height: 200px;
+}
+
+.feedback__item-infor--image{
+    width:20%;
+}
+
+.feedback__item-infor--image img{
+    width:60px;
+    height: 60px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.feedback__item-infor--name h4{
+    font-size: 14px;
+}
+
+.feedback__item-infor--name span{
+    font-size: 12px;
+    color:#888888;
+}
+
+.feedback__item-describe {
+    margin:16px 0px;
+    font-size: 13px;
+    color:#888888;
+    line-height: 1.5;
+}
+
+.stat .stat-detail span{
+    font-size: 36px;
+}
+
+.stat .stat-detail p{
+    font-size: 14px;
+    color:#888888;
+    margin:16px 0px;
+    padding:0px 30px;
+    line-height: 1.5;
+
+}
+

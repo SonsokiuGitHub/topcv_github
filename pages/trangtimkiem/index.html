@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tuyển Dụng, Việc Làm Tốt Nhất</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/css/pages/trangtimkiem/trangtimkiem.css">
+    <link rel="stylesheet" href="../../assets/vendor/fontawesome-free-5.15.1-web/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="bg-white">
+            <nav class="navbar navbar-expand-md navbar-light flex-wrap justify-content-center">
+                <div class="container">
+                    <a class="navbar-brand me-5" href="#">
+                        <img src="../../assets/images/image__home/topcv-logo-4.webp" width="120" class="img-fluid"
+                            alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav navbar-right align-items-center ">
+                            <li class="nav-item ">
+                                <a class="nav-link" aria-current="page" href="#">Có việc siêu tốc <span class="label label-danger">Hot</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Mẫu CV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Mẫu Cover Letter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Việc làm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Khám phá</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Công ty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Đăng nhập</a>
+                            </li>
+                            <li class="nav-item btn-support btn-page-jobs">
+                                <a class="text-decoration-none d-inline-block" href="" target="_blank">
+                                    <p class="fw-bold text-uppercase">NHÀ TUYỂN DỤNG</p>
+                                    <p class="fw-lighter">Đăng tuyển &amp; Tìm hồ sơ</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="box-search">
+                <div class="container ">
+                    <div class="box-search__detail">
+                        <form id="form-search-job" action="">
+                            <div class="row">
+                                <div class="col-12 col-lg-10">
+                                    <div class="row g-0">
+                                            <div class="col-12 col-md-6 mb-3 mb-lg-1 form-group input-data position-relative">
+                                                <input class="input-search form-control hidden-outline " type="text"
+                                                        placeholder="Tên công việc, vị trí bạn muốn ứng tuyển...">
+                                            </div>
+                                            <div class="col-12 col-md-3 mb-3 mb-lg-1 d-block form-group input-data position-relative">
+                                                <select class="input-select2 form-control form-select px-5" id="city"
+                                                     aria-hidden="true" aria-label="Default select example">
+                                                    <option selected value="">Tất cả địa điểm</option>
+                                                    <option value="1">Hà Nội</option>
+                                                    <option value="2">Hồ Chí Minh</option>
+                                                    <option value="3">Bình Dương</option>
+                                                    <option value="4">Bắc Ninh</option>
+                                                    <option ue="5">Đồng Nai</option>
+                                                    <option value="6">Hưng Yên</option>
+                                                    <option value="7">Hải Dương</option>
+                                                    <option value="8">Đà Nẵng</option>
+                                                    <option value="9">Hải Phòng</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-md-3 mb-3 mb-lg-1 d-block form-group">
+                                                <select class="input-select2 form-control form-select px-5" id="category"
+                                                    aria-hidden="true">
+                                                    <option selected value="">Tất cả ngành nghề</option>
+                                                    <option value="10101">An toàn lao động</option>
+                                                    <option value="10102">Bán hàng kỹ thuật</option>
+                                                    <option value="10103">Bán lẻ / bán sỉ</option>
+                                                    <option value="10004">Báo chí / Truyền hình</option>
+                                                    <option ue="10006">Bảo hiểm</option>
+                                                    <option value="10104">Bảo trì / Sữa chữa</option>
+                                                    <option value="10007">Bất động sản</option>
+                                                    <option value="10003">Biên / Phiên dịch</option>
+                                                    <option value="10005">Bưu chính - Viễn thông</option>
+                                                    <option value="10008">Chứng khoán / Vàng / Ngoại tệ</option>
+                                                    <option value="10010">Cơ khí / Chế tạo / Tự động hóa</option>
+                                                    <option value="10009">Công nghệ cao</option>
+                                                    <option value="10052">Công nghệ Ô tô</option>
+                                                    <option value="10131">Công nghệ thông tin</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class=" col-12 col-lg-2">
+                                    <button class="input-select2 btn btn-main-topcv w-full d-block text-uppercase">
+                                        Tìm
+                                    </button>
+                                </div>
+                            </div>    
+                
+                        </form>
+                        <div class="row">
+                            <div class="col-12 col-md-8">
+        
+                            </div>
+                            <div class="col-12 col-md-4 py-2">
+                                <span class="box-search__selective float-end">Chọn tìm kiếm nâng cao</span>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div id="content-main">
+            <div class="container mb-4">
+                    <nav class="breadcrumb__page-search" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ul class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+                          <li class="breadcrumb-item" aria-current="page"><a href="#">Danh sách việc làm</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Tuyển dụng, việc làm tốt nhất</li>
+                        </ul>
+                    </nav>
+
+                    <div class="box-job-count bg-white">
+                        <div class="row">
+                            <div class="col-12 col-lg-8 text-start">
+                                <h4 class="color-main-topcv">Tin Tuyển Dụng, Việc Làm Tốt Nhất</h4>
+                            </div>
+                            <div class="col-12 col-lg-4 d-flex align-items-center justify-content-end">
+                                <h6><span class="color-main-topcv">299</span> việc làm tốt nhất</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-list-job">
+                        <div class="row">
+                            <div class="col-12 col-lg-9">
+                                <div class="list-job">
+                                    <div class="item-job p-1 bg-sub-item-job">
+                                        <div class="row g-0">
+                                            <div class="col-2 px-3">
+                                                <a class="" href="">
+                                                    <div class="item-job__logo-company">
+                                                        <img src="https://static.topcv.vn/company_logos/19b2acae30675e749ab0bddee2dab43a-607001f1999a3.jpg"
+                                                            alt="" class="img-fluid">
+                                                    </div>
+                                                </a>
+                                                <div class="rated-company mt-2 text-center">
+                                                    <a class="text-decoration-none" href="" target="_blank" style="font-family: FontAwesome;" title="" class="">
+                                                        <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8 px-3">
+                                                <div class="item-job__name-job mt-2 mb-3">
+                                                    <a href="#" target="_blank">
+                                                        <span>
+                                                            <strong class="fw-bold">Nhân Viên Tư Vấn Khách Hàng Đăng Tin Lên Website</strong>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__name-company text-ellipsis mb-1">
+                                                    <a href="">
+                                                        <span class="">
+                                                            Công ty Cổ phần PropertyGuru Việt Nam
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__info text-ellipsis">
+                                                    <div class="row gx-3">
+                                                        <div class="col-12 col-lg-4 mb-2">
+                                                            <span class="color-main-topcv">
+                                                                <i class="fas fa-dollar-sign color-main-topcv me-2"></i>
+                                                            Đăng nhập để xem
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 text-ellipsis mb-2">
+                                                            <span><i class="fa fa-map-marker color-main-topcv me-2"></i></span>
+                                                            Khu vực: Hà Nội, Hồ Chí Minh, Bình Dương, Đồng Nai, Đà Nẵng, Bà Rịa-Vũng Tàu, Cần Thơ, TP Nha Trang
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 mb-2">
+                                                            Cập nhật 6 phút trước
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 px-3 box-save-job">
+                                                <a class="text-decoration-none d-flex align-items-center mt-4" href="">
+                                                    <i class="far fa-heart me-1"></i>Lưu tin
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-job p-1 bg-sub-item-job">
+                                        <div class="row g-0">
+                                            <div class="col-2 px-3">
+                                                <a class="" href="">
+                                                    <div class="item-job__logo-company">
+                                                        <img src="https://static.topcv.vn/company_logos/19b2acae30675e749ab0bddee2dab43a-607001f1999a3.jpg"
+                                                            alt="" class="img-fluid">
+                                                    </div>
+                                                </a>
+                                                <div class="rated-company mt-2 text-center">
+                                                    <a class="text-decoration-none" href="" target="_blank" style="font-family: FontAwesome;" title="" class="">
+                                                        <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8 px-3">
+                                                <div class="item-job__name-job mt-2 mb-3">
+                                                    <a href="#" target="_blank">
+                                                        <span>
+                                                            <strong class="fw-bold">Nhân Viên Tư Vấn Khách Hàng Đăng Tin Lên Website</strong>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__name-company text-ellipsis mb-1">
+                                                    <a href="">
+                                                        <span class="">
+                                                            Công ty Cổ phần PropertyGuru Việt Nam
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__info text-ellipsis">
+                                                    <div class="row gx-3">
+                                                        <div class="col-12 col-lg-4 mb-2">
+                                                            <span class="color-main-topcv">
+                                                                <i class="fas fa-dollar-sign color-main-topcv me-2"></i>
+                                                            Đăng nhập để xem
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 text-ellipsis mb-2">
+                                                            <span><i class="fa fa-map-marker color-main-topcv me-2"></i></span>
+                                                            Khu vực: Hà Nội, Hồ Chí Minh, Bình Dương, Đồng Nai, Đà Nẵng, Bà Rịa-Vũng Tàu, Cần Thơ, TP Nha Trang
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 mb-2">
+                                                            Cập nhật 6 phút trước
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 px-3 box-save-job">
+                                                <a class="text-decoration-none d-flex align-items-center mt-4" href="">
+                                                    <i class="far fa-heart me-1"></i>Lưu tin
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-job p-1 bg-sub-item-job">
+                                        <div class="row g-0">
+                                            <div class="col-2 px-3">
+                                                <a class="" href="">
+                                                    <div class="item-job__logo-company">
+                                                        <img src="https://static.topcv.vn/company_logos/19b2acae30675e749ab0bddee2dab43a-607001f1999a3.jpg"
+                                                            alt="" class="img-fluid">
+                                                    </div>
+                                                </a>
+                                                <div class="rated-company mt-2 text-center">
+                                                    <a class="text-decoration-none" href="" target="_blank" style="font-family: FontAwesome;" title="" class="">
+                                                        <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8 px-3">
+                                                <div class="item-job__name-job mt-2 mb-3">
+                                                    <a href="#" target="_blank">
+                                                        <span>
+                                                            <strong class="fw-bold">Nhân Viên Tư Vấn Khách Hàng Đăng Tin Lên Website</strong>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__name-company text-ellipsis mb-1">
+                                                    <a href="">
+                                                        <span class="">
+                                                            Công ty Cổ phần PropertyGuru Việt Nam
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__info text-ellipsis">
+                                                    <div class="row gx-3">
+                                                        <div class="col-12 col-lg-4 mb-2">
+                                                            <span class="color-main-topcv">
+                                                                <i class="fas fa-dollar-sign color-main-topcv me-2"></i>
+                                                            Đăng nhập để xem
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 text-ellipsis mb-2">
+                                                            <span><i class="fa fa-map-marker color-main-topcv me-2"></i></span>
+                                                            Khu vực: Hà Nội, Hồ Chí Minh, Bình Dương, Đồng Nai, Đà Nẵng, Bà Rịa-Vũng Tàu, Cần Thơ, TP Nha Trang
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 mb-2">
+                                                            Cập nhật 6 phút trước
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 px-3 box-save-job">
+                                                <a class="text-decoration-none d-flex align-items-center mt-4" href="">
+                                                    <i class="far fa-heart me-1"></i>Lưu tin
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-job p-1 bg-sub-item-job">
+                                        <div class="row g-0">
+                                            <div class="col-2 px-3">
+                                                <a class="" href="">
+                                                    <div class="item-job__logo-company">
+                                                        <img src="https://static.topcv.vn/company_logos/19b2acae30675e749ab0bddee2dab43a-607001f1999a3.jpg"
+                                                            alt="" class="img-fluid">
+                                                    </div>
+                                                </a>
+                                                <div class="rated-company mt-2 text-center">
+                                                    <a class="text-decoration-none" href="" target="_blank" style="font-family: FontAwesome;" title="" class="">
+                                                        <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8 px-3">
+                                                <div class="item-job__name-job mt-2 mb-3">
+                                                    <a href="#" target="_blank">
+                                                        <span>
+                                                            <strong class="fw-bold">Nhân Viên Tư Vấn Khách Hàng Đăng Tin Lên Website</strong>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__name-company text-ellipsis mb-1">
+                                                    <a href="">
+                                                        <span class="">
+                                                            Công ty Cổ phần PropertyGuru Việt Nam
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__info text-ellipsis">
+                                                    <div class="row gx-3">
+                                                        <div class="col-12 col-lg-4 mb-2">
+                                                            <span class="color-main-topcv">
+                                                                <i class="fas fa-dollar-sign color-main-topcv me-2"></i>
+                                                            Đăng nhập để xem
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 text-ellipsis mb-2">
+                                                            <span><i class="fa fa-map-marker color-main-topcv me-2"></i></span>
+                                                            Khu vực: Hà Nội, Hồ Chí Minh, Bình Dương, Đồng Nai, Đà Nẵng, Bà Rịa-Vũng Tàu, Cần Thơ, TP Nha Trang
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 mb-2">
+                                                            Cập nhật 6 phút trước
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 px-3 box-save-job">
+                                                <a class="text-decoration-none d-flex align-items-center mt-4" href="">
+                                                    <i class="far fa-heart me-1"></i>Lưu tin
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-job p-1 bg-sub-item-job">
+                                        <div class="row g-0">
+                                            <div class="col-2 px-3">
+                                                <a class="" href="">
+                                                    <div class="item-job__logo-company">
+                                                        <img src="https://static.topcv.vn/company_logos/19b2acae30675e749ab0bddee2dab43a-607001f1999a3.jpg"
+                                                            alt="" class="img-fluid">
+                                                    </div>
+                                                </a>
+                                                <div class="rated-company mt-2 text-center">
+                                                    <a class="text-decoration-none" href="" target="_blank" style="font-family: FontAwesome;" title="" class="">
+                                                        <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8 px-3">
+                                                <div class="item-job__name-job mt-2 mb-3">
+                                                    <a href="#" target="_blank">
+                                                        <span>
+                                                            <strong class="fw-bold">Nhân Viên Tư Vấn Khách Hàng Đăng Tin Lên Website</strong>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__name-company text-ellipsis mb-1">
+                                                    <a href="">
+                                                        <span class="">
+                                                            Công ty Cổ phần PropertyGuru Việt Nam
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <div class="item-job__info text-ellipsis">
+                                                    <div class="row gx-3">
+                                                        <div class="col-12 col-lg-4 mb-2">
+                                                            <span class="color-main-topcv">
+                                                                <i class="fas fa-dollar-sign color-main-topcv me-2"></i>
+                                                            Đăng nhập để xem
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 text-ellipsis mb-2">
+                                                            <span><i class="fa fa-map-marker color-main-topcv me-2"></i></span>
+                                                            Khu vực: Hà Nội, Hồ Chí Minh, Bình Dương, Đồng Nai, Đà Nẵng, Bà Rịa-Vũng Tàu, Cần Thơ, TP Nha Trang
+                                                        </div>
+                                                        <div class="col-6 col-lg-4 mb-2">
+                                                            Cập nhật 6 phút trước
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 px-3 box-save-job">
+                                                <a class="text-decoration-none d-flex align-items-center mt-4" href="">
+                                                    <i class="far fa-heart me-1"></i>Lưu tin
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <nav class="py-4 bg-white" aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center">
+                                      <li class="page-item mx-1">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                          <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                      </li>
+                                      <li class="page-item mx-1 active"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item mx-1"><a class="page-link" href="#">2</a></li>
+                                      <li class="page-item mx-1"><a class="page-link" href="#">3</a></li>
+                                      <li class="page-item mx-1">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                          <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="col-12 col-lg-3">
+                                <div class="bg-white">
+                                    <div class="box-hot-companies px-1">
+                                        <h3 class="hot-companies__heading text-center ">Công Ty Nổi Bật</h3>
+                                        <div class="hot-companies__profile py-2 mb-3">
+                                            <div class="hot-companies__profile--image">
+                                                <img class="img-fluid" src="https://static.topcv.vn/company_covers/3mETgeWXYdh2Ys97yPaI.jpg" alt="">
+                                            </div>
+                                            <div class="hot-companies__infor text-center position-relative">
+                                                <div class="hot-companies__infor--image position-absolute">
+                                                    <img src="https://static.topcv.vn/company_logos/cong-ty-giao-duc-va-dao-tao-quoc-te-dai-tay-duong-atlantic-group-5f2918b6cd1f6.jpg" alt="">
+                                                </div>
+                                                <a class="hot-companies__infor--link text-decoration-none text-center color-main-topcv" href="">CÔNG TY GIÁO DỤC VÀ ĐÀO TẠO QUỐC TẾ ĐẠI TÂY DƯƠNG (Atlantic Group)</a>
+                                            </div>
+                                        </div>
+                                        <div class="hot-companies__describe p-2">
+                                            <div class="hot-companies__describe--name mb-2">
+                                                <a href="">Nhân Viên Kinh Doanh Bất Động Sản Thu Nhập Hấp Dẫn</a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <i class="fas fa-dollar-sign color-main-topcv me-2"></i>
+                                                    <span>15 - 20 triệu</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <i class="far fa-clock color-main-topcv me-2"></i>
+                                                   <span> 06/05/21</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hot-companies__describe p-2">
+                                            <div class="hot-companies__describe--name mb-2">
+                                                <a href="">Nhân Viên Kinh Doanh Lương Cứng Đến 12 Triệu</a>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <i class="fas fa-dollar-sign color-main-topcv me-2"></i>
+                                                    <span>15 - 20 triệu</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <i class="far fa-clock color-main-topcv me-2"></i>
+                                                    <span>06/05/21<span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center bg-white py-2">
+                                            <a class="text-decoration-none color-main-topcv" style="font-size: 14px;" href="">Xem Thêm >></a>
+                                        </div>
+    
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="bg-white p-3 mb-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="box-job-search-footer col-12 col-md-4">
+                            <h5 class="">Việc Làm Theo Ngành Nghề</h5>
+                            <ul>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Nhân viên kinh doanh" target="_blank">Tìm việc làm Nhân viên kinh doanh</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Nhân viên marketing" target="_blank">Tìm việc làm Nhân viên marketing</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Nhân viên kế toán" target="_blank">Tìm việc làm Nhân viên kế toán</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Hành chính nhân sự" target="_blank">Tìm việc làm Hành chính nhân sự</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Tuyển dụng nhân sự" target="_blank">Tìm việc làm Tuyển dụng nhân sự</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Nhân viên SEO" target="_blank">Tìm việc làm Nhân viên SEO</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Lập trình viên Mobile" target="_blank">Tìm việc làm Lập trình viên Mobile</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Thực tập sinh" target="_blank">Tìm việc làm Thực tập sinh</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Thư ký" target="_blank">Tìm việc làm Thư ký</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Giáo viên" target="_blank">Tìm việc làm Giáo viên</a></li>
+                            </ul>
+                        </div>
+                        <div class="box-job-search-footer col-12 col-md-4">
+                            <h5 class="">Việc Làm Tại</h5>
+                            <ul>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Hà Nội" target="_blank">Việc làm tại Hà Nội</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Hồ Chí Minh" target="_blank">Việc làm tại Hồ Chí Minh</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Hải Phòng" target="_blank">Việc làm tại Hải Phòng</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Đà Nẵng" target="_blank">Việc làm tại Đà Nẵng</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Bắc Ninh" target="_blank">Việc làm tại Bắc Ninh</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Cần Thơ" target="_blank">Việc làm tại Cần Thơ</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Bình Dương" target="_blank">Việc làm tại Bình Dương</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Vĩnh Phúc" target="_blank">Việc làm tại Vĩnh Phúc</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Đồng Nai" target="_blank">Việc làm tại Đồng Nai</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm tại Long An" target="_blank">Việc làm tại Long An</a></li>
+                                </ul>
+                        </div>
+                        <div class="box-job-search-footer col-12 col-md-4">
+                            <h5 class="">Việc Làm Phổ Biến</h5>
+                            <ul>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Nhân viên tư vấn" target="_blank">Việc làm Nhân viên tư vấn</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Nhân viên telesales" target="_blank">Việc làm Nhân viên telesales</a></li>
+                                <li><a class="text-silver" href="" target="_blank">Việc làm Thiết kế đồ hoạ/Designer</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Giám sát bán hàng" target="_blank">Việc làm Giám sát bán hàng</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Biên phiên dịch" target="_blank">Việc làm Biên phiên dịch</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Lập trình viên PHP" target="_blank">Việc làm Lập trình viên PHP</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Lập trình viên Java" target="_blank">Việc làm Lập trình viên Java</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Tester" target="_blank">Việc làm Tester</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Tư vấn tài chính" target="_blank">Việc làm Tư vấn tài chính</a></li>
+                                <li><a class="text-silver" href="" title="Tìm việc làm Nhân viên lễ tân" target="_blank">Việc làm Nhân viên lễ tân</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer__top bg-white">
+                <div class="container">
+                    <div class="row flex-wrap-reverse">
+                        <div class="col-12 col-md-7 ">
+                            <div class="footer__top-left bg-white">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4">
+                                        <div class="footer__top-group-label position-relative fw-bold">
+                                            Ứng Viên
+                                        </div>
+                                        <ul class="footer__top-list">
+                                            <li><a href="" target="_blank">Tìm việc làm</a></li>
+                                            <li><a href="" target="_blank">Khóa học</a></li>
+                                            <li><a href="" title="Trắc nghiệm tính cách MBTI">Trắc nghiệm MBTI</a></li>
+                                            <li><a href="" target="_blank">Hướng dẫn viết CV</a></li>
+                                            <li><a href="">Tư vấn sửa CV</a></li>
+                                            <li><a href="">Thiết kế CV</a></li>
+                                            <li><a href="">Dịch CV</a></li>
+                                            <li><a target="_blank" href="">Bài viết tham khảo</a></li>
+                                        </ul>
+    
+                                    </div>
+                                    <div class="col-6 col-lg-4">
+                                        <div class="footer__top-group-label position-relative fw-bold">
+                                            Đối Tác
+                                        </div>
+                                        <ul class="footer__top-list">
+                                            <li><a target="_blank" href="">Doanh nghiệp</a></li>
+                                            <li><a href="">Trường đại học</a></li>
+                                            <li><a href="">Các CLB, đoàn thể</a></li>
+                                            <li><a href="" target="_blank">Edu2Review</a></li>
+                                            <li><a href="" target="_blank">Gitiho</a></li>
+                                            <li><a href="" target="_blank"
+                                                    title="Thông tin khuyến mãi, giảm giá, sale, ưu đãi, coupon, voucher... về ăn uống, thời trang, mỹ phẩm, làm đẹp năm 2018 trên toàn quốc - JAMJA">JAMJA.vn</a>
+                                            </li>
+                                            <li><a href="" target="_blank" title="Mogi.vn bất động sản">Mogi.vn</a></li>
+                                            <li><a href="" target="_blank" title="Homedy Mua bán nhà đất"
+                                                    rel="dofollow">Homedy.com</a></li>
+                                            <li><a href="" target="_blank"
+                                                    title=" Printgo – Nền tảng thiết kế và in ấn trực tuyến số 1 Việt Nam ">
+                                                    Printgo.vn </a></li>
+                                            <li><a href="" target="_blank">ViecNgay.vn</a></li>
+                                            <li><a href="" target="_blank">TopHR.vn</a></li>
+                                        </ul>
+    
+                                    </div>
+                                    <div class="col-6 col-lg-4">
+                                        <div class="footer__top-group-label position-relative fw-bold">
+                                            Kết Nối
+                                        </div>
+                                        <ul class="footer__top-list">
+                                            <li class="social-icons mb-3">
+                                                <a href="" target="_blank"><span class="fab fa-facebook"></span></a>
+                                                <a href=""><span class="fab fa-twitter"></span></a>
+                                                <a href="" target="_blank"><span class="fab fa-linkedin"></span></a>
+                                                <a href=""><span class="fab fa-youtube"></span></a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank"><img src="https://www.topcv.vn/images/bct.jpg"
+                                                    style="max-height: 56px; margin-left: -10px;">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="" title="DMCA.com Protection Status"
+                                                    class="dmca-badge" style="max-height: 56px; text-align: center">
+                                                    <!-- <img src="" alt="DMCA.com Protection Status"> -->
+                                                </a>
+                                            </li>
+                                        </ul>
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="footer__top-right bg-white">
+                                <div class="row">
+                                    <div class="col-12 pb-4">
+                                        <div class="box-brand d-flex align-items-center mb-4">
+                                            <a href=""><img class="d-inline-block" src="https://www.topcv.vn/v3/images/topcv-logo-4.png"  alt=""></a>
+                                            <a href=""><img class="d-inline-block" src="https://www.topcv.vn/images/banner/logo-google-for-startup.png" alt=""></a>
+                                        </div>
+                                        <h5 class="d-inline-block mt-3">Ứng Dụng TOPCV <span class="fw-bold bg-danger">Mới</span></h5>
+                                        <div class="box-app-download d-flex align-items-center mt-3">
+                                            <a href=""><img src="https://www.topcv.vn/v3/images/new/app-store-badge.png" alt=""></a>
+                                            <a href=""><img src="https://www.topcv.vn/v3/images/new/google-play-badge.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="footer__top-list">
+                                            <li><a href="" target="_blank">Giới Thiệu</a></li>
+                                            <li><a href="" target="_blank">Góc Báo Chí</a></li>
+                                            <li><a href="" title="Trắc nghiệm tính cách MBTI">Tuyển Dụng</a></li>
+                                            <li><a href="" target="_blank">Liên Hệ</a></li>
+                                            <li><a href="" target="_blank">Hợp Tác</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="footer__top-list">
+                                            <li><a href="" target="_blank">Chính Sách Bảo Mật</a></li>
+                                            <li><a href="" target="_blank">Điều Khoản Dịch Vụ</a></li>
+                                            <li><a href="" title="Trắc nghiệm tính cách MBTI">Quy Chế Hoạt Động</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer__key-words bg-sub-primary">
+                <div class="container">
+                    <ul class="list-key-words py-3 d-flex flex-wrap">
+                        <li><a href="">cv là gì</a></li>
+                        <li><a href="">mẫu cv tiếng anh</a></li>
+                        <li><a href="">mẫu cv tiếng việt</a></li>
+                        <li><a href="">tải mẫu sơ yếu lý lịch chuẩn miễn phí</a></li>
+                        <li><a href="">tổng hợp cv tham khảo các nhóm ngành</a></li>
+                        <li><a href="">tổng hợp cv tham khảo cho lập trình viên</a></li>
+                        <li><a href="">giấy tờ thủ tục hồ sơ xin việc</a></li>
+                        <li><a href="">email bằng tiếng anh</a></li>
+                        <li><a href="">mẫu đơn xin việc các nhóm ngành</a></li>
+                        <li><a href="">mẫu đơn xin nghỉ việc</a></li>
+                        <li><a href="">mẫu đơn xin nghỉ phép</a></li>
+                        <li><a href="">cách viết cv chuẩn</a></li>
+                        <li><a href="">cách viết cv tiếng hàn</a></li>
+                        <li><a href="">cách viết CV ngành kinh doanh, bán hàng</a></li>
+                        <li><a href="">cách viết CV ngành kế toán, kiểm toán</a></li>
+                        <li><a href="">cách viết Cv ngành nhân sự</a></li>
+                        <li><a href="">cách viết Cv xin học bổng</a></li>
+                        <li><a href="">cách viết Cv tiếng nhật</a></li>
+                        <li><a href="">Xin việc ngành công nghệ thông tin</a></li>
+                        <li><a href="">Cẩm nang xin việc ngành luật</a></li>
+                        <li><a href="">Ngành du lịch làm những công việc gì</a></li>
+                        <li><a href="">Mẫu đơn xin thực tập</a></li>
+                        <li><a href="">Hướng dẫn sửa lỗi gõ tiếng việt</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer__bottom pt-3 pb-1 bg-sub-primary">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-12 col-lg-6">
+                                © 2014 - 2021 Bản quyền thuộc về CTCP TopCV Việt Nam
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                    Trụ sở HN: Tầng 03, Tòa nhà Goldseason, 47 Nguyễn Tuân, Thanh Xuân, Hà Nội 
+                                <br>
+                                    TP HCM: Tòa nhà cao ốc Nam Giao 1, số 261 - 263 Phan Xích Long, Phường 2, Quận Phú Nhuận, TP Hồ Chí Minh
+                            </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>

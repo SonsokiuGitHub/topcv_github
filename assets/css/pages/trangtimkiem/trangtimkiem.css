@@ -1,0 +1,205 @@
+@import "../../base/reset.css";
+@import "../../base/base.css";
+@import "../../components/header/hearder.css";
+@import "../../components/footer/footer.css";
+@import "../../components/form_search/form__search.css";
+@import "../../components/Breadcrumb/breadcrumb.css";
+
+
+/* css page search */
+
+/* css header page trangtimkiem */
+
+.nav-item.btn-page-jobs{
+    display:inline-block !important;
+    background-color: #334554 !important;
+}
+
+.nav-item >.nav-link{
+    color:#333 !important;
+}
+.nav-item>.nav-link:hover{
+    color:#00b14f !important;
+}
+
+/* end css page timkiem */
+
+body{
+    background-color: #f6f6f6;
+}
+
+.box-search__detail{
+    background-color: rgba(83, 87, 90, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.box-search__selective{
+    font-size: 13px;
+    color:#fff;
+}
+
+.box-job-count{
+    padding:10px 20px;
+    margin-bottom:25px;
+}
+
+.box-job-count h4{
+    font-size:21px;
+}
+
+.box-job-count h6{
+    font-size:15px;
+    color:#666666;
+}
+
+/* css item job page search */
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-job{
+    border:1px solid #dfdfdf;
+}
+
+.item-job:hover{
+    background-color:#f6f6f6;
+}
+
+.item-job__logo-company{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.item-job__logo-company img{
+    height: 100%;
+    width:auto;
+    max-width:100%;
+}
+
+.item-job__name-job a{
+    text-decoration: none;
+    color:#555555;
+    font-size: 18px;
+    display: block;
+}
+
+.item-job__name-job a:hover{
+    color:#00b14f;
+}
+
+.item-job__name-company a{
+    text-decoration: none;
+    color:#999999;
+    font-size:14px;
+    margin:10px 0px;
+    display: block;
+}
+
+.item-job__name-company a:hover{
+    color:#00b14f;
+}
+
+.item-job__info{
+    font-size: 14px;
+    padding:8px 0px;
+}
+
+.box-save-job a{
+    color:#666666;
+    font-size: 13px;
+}
+
+.box-save-job a:hover{
+    color:#00b14f;
+}
+
+.pagination li a{
+    color:#666666;
+    font-size: 14px;
+}
+
+.page-item.active a{
+    background-color: #00b14f !important;
+    border:none;
+}
+
+.page-item>.page-link:focus{
+    box-shadow: none !important;
+}
+
+/* -------------- */
+
+.hot-companies__heading{
+    font-size:16px;
+    color:#333;
+    border-bottom:1px solid #ececec;
+    padding: 10px 0px;
+}
+
+.hot-companies__infor{
+    padding:70px 5px 10px;
+}
+
+.hot-companies__infor--image{
+    width:90px;
+    height: 90px;
+    padding:2px;
+    transform:translateY(-130%);   
+    left:35%; 
+    box-shadow: 0 0 1px 0 #b1b1d6;
+    border-radius: 2px;
+}
+
+.hot-companies__infor--image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hot-companies__infor--link{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.hot-companies__describe{
+    border-bottom:1px solid #ececec;
+}
+
+.hot-companies__describe--name a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#212f3f;
+    line-height: 1.4;
+}
+
+.hot-companies__describe span{
+    font-size: 13px;
+    color:#666666;
+}
+
+.box-job-search-footer h5{
+    color:#212f3f;
+    font-size:20px;
+    margin:10px 0px 30px 0px;
+}
+
+.box-job-search-footer ul li{
+    line-height: 1.4;
+}
+
+.box-job-search-footer ul li a{
+    color:#999999;
+    font-size:13px;
+    text-decoration:none;
+}
